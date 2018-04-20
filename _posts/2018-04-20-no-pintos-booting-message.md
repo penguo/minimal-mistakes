@@ -1,11 +1,11 @@
 ---
-title: "[Pintos] no 'Pintos booting' message"
+title: "[pintos] no 'Pintos booting' message"
 categories:
   - pintos
 tags:
   - troubleshooting
 ---
-"Run didn't start up properly: no "Pintos booting" message"
+pintos error - "Run didn't start up properly: no "Pintos booting" message"
 
 ## 1. 문제 상황
 
