@@ -3,7 +3,8 @@ title: "Hello, MarkDown Title"
 categories:
   - Github Blog
 tags:
-  - markup
+  - study
+  - markdown
 ---
 # Hello, MarkDown
 
