@@ -15,7 +15,7 @@ make check 를 할 때, 일부 test들이
 
 를 출력하며 FAIL된다.
 
-![error_message](../img/pintos/nob1.png)
+![error_message](/img/pintos/nob1.png)
 
 &nbsp;
 
