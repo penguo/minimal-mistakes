@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "Penguo"
 description              : "About Java, android, and more computer science engineering"
 url                      : https://penguo.github.io
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : penguo/penguo.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -38,14 +38,14 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "master" # "master"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "/_data/comments/{options.slug}" (default)
+  requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : # "md5"
   generatedFields:
