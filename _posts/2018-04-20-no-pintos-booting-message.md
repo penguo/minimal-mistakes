@@ -15,7 +15,7 @@ make check 를 할 때, 일부 test들이
 
 를 출력하며 FAIL된다.
 
-![error_message](/img/pintos/nob1.png)
+![error_message]({{ site.url }}{{ site.baseurl }}/img/pintos/nob1.png)
 
 &nbsp;
 
@@ -42,11 +42,11 @@ make check 를 할 때, 일부 test들이
     vim Make.vars
     ```
 
-    ![make.vars](./img/pintos/nob5.png)
+    ![make.vars]({{ site.url }}{{ site.baseurl }}/img/pintos/nob5.png)
 
 3. make check 한다.
 
-    ![pass_message](./img/pintos/nob2.png)
+    ![pass_message]({{ site.url }}{{ site.baseurl }}/img/pintos/nob2.png)
 
 &nbsp;
 
@@ -68,10 +68,10 @@ make check 를 할 때, 일부 test들이
 make clean 을 했을 경우 발생하며, pintos utils의 make내역도 함께 삭제되기 때문에 발생하는 듯 하다.
 
 *utils 에서 make를 하기 전*
-![utils_no_make](./img/pintos/nob3.png)
+![utils_no_make]({{ site.url }}{{ site.baseurl }}/img/pintos/nob3.png)
 
 *utils 에서 make를 한 뒤*
-![utils_make](./img/pintos/nob4.png)
+![utils_make]({{ site.url }}{{ site.baseurl }}/img/pintos/nob4.png)
 
 &nbsp;
 
@@ -82,11 +82,11 @@ make clean 을 했을 경우 발생하며, pintos utils의 make내역도 함께 
 qemu 로 make check 를 실행하면 정상적으로 76 pass가 나타나는데,
 
 *qemu에서 make check 결과*
-![passed_on_qemu](./img/pintos/nob7.png)
+![passed_on_qemu]({{ site.url }}{{ site.baseurl }}/img/pintos/nob7.png)
 
 bochs 위에서 make check 를 실행하면 2 fail이 나타난다.
 
 *bochs에서 make check 결과*
-![failed_on_bochs](./img/pintos/nob6.png)
+![failed_on_bochs]({{ site.url }}{{ site.baseurl }}/img/pintos/nob6.png)
 
 동일한 코드 상에서 에뮬레이터의 차이로 fail이 뜰 수도 있는 듯 하다. qemu 짱짱!
