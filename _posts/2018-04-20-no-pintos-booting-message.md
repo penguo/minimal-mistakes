@@ -1,5 +1,5 @@
 ---
-title: "no "Pintos booting" message"
+title: "no 'Pintos booting' message"
 categories:
   - pintos
 tags:
