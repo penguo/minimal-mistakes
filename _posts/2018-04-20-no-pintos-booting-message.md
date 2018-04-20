@@ -9,25 +9,19 @@ tags:
 
 ## 1. 문제 상황
 
----
-
 make check 를 할 때, 일부 test들이
 
 >"Run didn't start up properly: no "Pintos booting" message"
 
 를 출력하며 FAIL된다.
 
-![error_message](./img/pintos/nob1.png)
+![error_message](../img/pintos/nob1.png)
 
 &nbsp;
 
 ## 2. 해결 방법
 
----
-
 ### 2.1. bochs 대신 qemu 를 사용하여 make check 을 한다
-
----
 
 1. (qemu가 설치되어 있지 않을 경우) qemu 설치를 한다
 
@@ -58,8 +52,6 @@ make check 를 할 때, 일부 test들이
 
 ### 2.2. utils에서 make를 해준다
 
----
-
 1. util 폴더에 이동하여 make 해준다.
 
     ```default
@@ -73,8 +65,6 @@ make check 를 할 때, 일부 test들이
 
 ## 3. 원인 분석
 
----
-
 make clean 을 했을 경우 발생하며, pintos utils의 make내역도 함께 삭제되기 때문에 발생하는 듯 하다.
 
 *utils 에서 make를 하기 전*
@@ -86,8 +76,6 @@ make clean 을 했을 경우 발생하며, pintos utils의 make내역도 함께 
 &nbsp;
 
 ## 4. 마무리
-
----
 
 현재 진행중인 pintos project 상에서는
 
