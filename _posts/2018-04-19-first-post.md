@@ -1,20 +1,18 @@
 ---
-title: "Hello, MarkDown Title"
+title: "Hello, World!"
 categories:
   - Github Blog
 tags:
   - study
   - markdown
 ---
-# Hello, MarkDown
+# hello
 
 마크다운 연습용 + 공부용 포스팅 입니다!
 
-아하하!
-
 각 줄마다 엔터 한 줄이 필요하다!
 
-첫 제목은 # 을 붙이자!
+첫 제목은 # 을 붙이자! 그런데 지금 github blog 스타일에서는 title 지정한게 첫 헤더로 나온다!
 
 ## 인용문
 
