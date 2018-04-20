@@ -1,10 +1,12 @@
 ---
-title: "no 'Pintos booting' message"
+title: "[Pintos] no 'Pintos booting' message"
 categories:
   - pintos
 tags:
   - troubleshooting
 ---
+"Run didn't start up properly: no "Pintos booting" message"
+
 ## 1. 문제 상황
 
 make check 를 할 때, 일부 test들이
