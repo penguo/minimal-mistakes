@@ -5,8 +5,6 @@ categories:
 tags:
   - troubleshooting
 ---
-# no "Pintos booting" message
-
 ## 1. 문제 상황
 
 make check 를 할 때, 일부 test들이
