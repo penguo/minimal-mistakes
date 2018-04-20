@@ -20,7 +20,7 @@ title                    : "Penguo Blog"
 title_separator          : "-"
 name                     : "Penguo"
 description              : "About Java, android, and more computer science engineering"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://penguo.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : penguo/penguo.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
