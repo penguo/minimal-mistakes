@@ -312,13 +312,13 @@ position은 getAdapterPosition() 함수를 사용하여 얻으면 된다.
 
 데이터 새로고침의 함수는 여러가지가 있다.
 
-notifyDataSetChanged() : 데이터 전체를 새로고침한다. 전체값이 바뀌는 경우가 아니면 사용을 자제하자.
-
-notifyItemChanged( *int position* ) : 해당 position을 새로고침한다.
-
-notifyItemRangeChanged( *int positionStart*, *int itemCount* ) : positionStart 위치부터 itemCount 만큼 새로고침한다.
-
-notifyItemRemoved( *int position* ) : 해당 position의 itemView를 삭제한다. item이 삭제되는 애니메이션 효과가 발생한다.
+>notifyDataSetChanged() : 데이터 전체를 새로고침한다. 전체값이 바뀌는 경우가 아니면 사용을 자제하자.
+>
+>notifyItemChanged( *int position* ) : 해당 position을 새로고침한다.
+>
+>notifyItemRangeChanged( *int positionStart*, *int itemCount* ) : positionStart 위치부터 itemCount 만큼 새로고침한다.
+>
+>notifyItemRemoved( *int position* ) : 해당 position의 itemView를 삭제한다. item이 삭제되는 애니메이션 효과가 발생한다.
 
 notifyDataSetChanged() 를 통해 전부 새로고침하는 것보다, 다른 함수를 사용하여 새로고침하는 것이 효율적이다.
 
