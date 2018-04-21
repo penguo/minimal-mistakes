@@ -63,6 +63,8 @@ public class RcvAdapter extends RecyclerView.Adapter<RcvAdapter.ViewHolder> {
 }
 ```
 
+&nbsp;
+
 - RecyclerView를 사용할 Activity 클래스에서 수정한다.
 
 ```java
@@ -84,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
+&nbsp;
 
 - List에 넣을 item을 xml 파일로 생성한다. 아래는 예제에서 쓴 예시 item.
 
@@ -118,6 +122,8 @@ public class MainActivity extends AppCompatActivity {
         android:textSize="16sp" />
 </LinearLayout>
 ```
+
+&nbsp;
 
 - 예제의 DataForm 클래스
 
@@ -214,6 +220,8 @@ public class DataForm {
     }
     ```
 
+&nbsp;
+
 - void onBindViewHolder
     
     각각의 리스트 아이템에 데이터를 입력(Bind)한다.
@@ -241,6 +249,8 @@ public class DataForm {
     }
     ```
 
+&nbsp;
+
 - void removeItem
 
     Item을 삭제할 때 호출할 함수.
@@ -255,6 +265,8 @@ public class DataForm {
         // (중간의 아이템이 삭제될 경우 모든 아이템의 position이 1씩 줄어들기 때문.)
     }
     ```
+
+&nbsp;
 
 - Activity 내에서 선언
 
@@ -282,6 +294,8 @@ rcv.addItemDecoration(new DividerItemDecoration(this, linearLayoutManager.getOri
 rcv.setLayoutManager(linearLayoutManager);
 ```
 
+&nbsp;
+
 ### 4.2. onBindViewHolder 내에서 setOnClickListener 사용 자제
 
 onBindViewHolder는 아이템 하나하나마다 실행되며 데이터를 뷰에 설정하는 함수이다.
@@ -291,6 +305,8 @@ onBindViewHolder는 아이템 하나하나마다 실행되며 데이터를 뷰�
 대신, setOnClickListener는 ViewHolder의 생성자에서 설정해주자.
 
 position은 getAdapterPosition() 함수를 사용하여 얻으면 된다.
+
+&nbsp;
 
 ### 4.3. 데이터 새로고침
 
