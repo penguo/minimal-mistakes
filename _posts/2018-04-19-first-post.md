@@ -1,7 +1,7 @@
 ---
 title: "Hello, World!"
 categories:
-  - Github Blog
+  - Github_Blog
 tags:
   - study
   - markdown
