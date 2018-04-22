@@ -264,6 +264,3 @@ defaults:
       comments: # true
       share: true
       related: true
-      sitemap :
-        changefreq : daily
-        priority : 1.0
