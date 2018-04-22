@@ -5,9 +5,6 @@ categories:
 tags:
   - study
   - markdown
-sitemap:
-    changefreq: daily
-    priority: 1.0
 ---
 마크다운 연습용 + 공부용 포스팅 입니다!
 

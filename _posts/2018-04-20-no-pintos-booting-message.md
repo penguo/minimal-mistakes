@@ -4,9 +4,6 @@ categories:
   - pintos
 tags:
   - troubleshooting
-sitemap:
-    changefreq: daily
-    priority: 1.0
 ---
 pintos 에러상황 해결 - "Run didn't start up properly: no "Pintos booting" message"
 
