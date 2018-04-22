@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <url>
-        <loc>https://penguo.github.io/</loc>
-    </url>
-
-    <url>
-        <loc>https://penguo.github.io/categories/</loc>
-    </url>
-
-    <url>
-        <loc>https://penguo.github.io/year-archive/</loc>
-    </url>
-
-    <url>
-        <loc>https://penguo.github.io/android/</loc>
-    </url>
-
-    <url>
-        <loc>https://penguo.github.io/pintos/</loc>
-    </url>
-
-    <url>
-        <loc>https://penguo.github.io/github_blog/</loc>
-    </url>
-
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+    {% if post.date %}
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% endfor %}
+  {% for page in site.pages %}
+  {% if page.sitemap %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+    {% if page.date %}
+    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>{{ sitemap.freq | default: 'monthly' }}</changefreq>
+    <priority>{{ sitemap.priority | default: '1.0' }}</priority>
+  </url>
+  {% endif %}
+  {% endfor %}
 </urlset>
