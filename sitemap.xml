@@ -2,15 +2,15 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://penguo.github.io/</loc>
-    </url>
-
-    <url>
         <loc>https://penguo.github.io/pintos/no-pintos-booting-message/</loc>
     </url>
 
     <url>
         <loc>https://penguo.github.io/android/Android-recyclerview-example/</loc>
+    </url>
+
+    <url>
+        <loc>https://penguo.github.io/</loc>
     </url>
 
 </urlset>

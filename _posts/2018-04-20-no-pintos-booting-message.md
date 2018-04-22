@@ -5,7 +5,7 @@ categories:
 tags:
   - troubleshooting
 ---
-pintos error - "Run didn't start up properly: no "Pintos booting" message"
+pintos 에러상황 해결 - "Run didn't start up properly: no "Pintos booting" message"
 
 ## 1. 문제 상황
 
@@ -20,6 +20,8 @@ make check 를 할 때, 일부 test들이
 &nbsp;
 
 ## 2. 해결 방법
+
+두 가지의 해결 방법을 작성하였다.
 
 ### 2.1. bochs 대신 qemu 를 사용하여 make check 을 한다
 
@@ -77,16 +79,16 @@ make clean 을 했을 경우 발생하며, pintos utils의 make내역도 함께 
 
 ## 4. 마무리
 
-현재 진행중인 pintos project 상에서는
+현재 진행중인 pintos project 상에서,
 
-qemu 로 make check 를 실행하면 정상적으로 76 pass가 나타나는데,
+2.1.방법으로, qemu로 make check하면 76 pass가 나타나는데,
 
 *qemu에서 make check 결과*
 ![passed_on_qemu]({{ site.url }}{{ site.baseurl }}/img/pintos/nob7.png)
 
-bochs 위에서 make check 를 실행하면 2 fail이 나타난다.
+2.2.방법을 따라 bochs 위에서 make check 를 실행하면 2 fail이 나타난다.
 
 *bochs에서 make check 결과*
 ![failed_on_bochs]({{ site.url }}{{ site.baseurl }}/img/pintos/nob6.png)
 
-동일한 코드 상에서 에뮬레이터의 차이로 fail이 뜰 수도 있는 듯 하다. qemu 짱짱!
+동일한 코드 상에서 에뮬레이터의 차이로 fail이 뜰 수도 있는 듯 하다.
