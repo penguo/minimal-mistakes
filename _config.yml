@@ -157,8 +157,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -266,3 +264,5 @@ defaults:
       comments: # true
       share: true
       related: true
+      changefreq : daily
+      priority : 1.0
