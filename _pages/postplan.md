@@ -17,7 +17,7 @@ permalink: /postplan/
 
 &nbsp;
 
-## Github Blog
+## [Collection] Github Blog
 
 ### 1. 도입부: Github Blog란?
 
@@ -50,6 +50,26 @@ permalink: /postplan/
 4.2. 구글 애널리스틱 연동
 
     접속자 통계를 보여준다.
+
+&nbsp;
+
+## [Collection] Android 앱 기획하고 만들기
+
+Android에 대한 기본 코딩 방법은 제외
+
+### 1. 도입부: 무엇을 만들고 싶은가?
+
+어떤 역할?
+
+타겟은 누구?
+
+어떠한 기능들?
+
+### 2. 전개부: 외관 레이아웃 디자인해보기
+
+손그림이나 그림판으로 생각하는 레이아웃을 직접 그려보자
+
+### 3. 기획서 작성
 
 &nbsp;
 
